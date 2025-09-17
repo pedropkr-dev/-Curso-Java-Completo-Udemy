@@ -1,7 +1,5 @@
 package Modulo3;
 
-import java.sql.SQLOutput;
-
 public class Variaveis {
 
     //Para fazer uma constante,eu preciso utilizar o "static final". Observação: Diferentemente da variável, não é um valor mutável,
