@@ -18,8 +18,6 @@ public class LoopComWhile {
             valor = valor + 1;
         }
 
-
-
         input.close();
     }
 }
