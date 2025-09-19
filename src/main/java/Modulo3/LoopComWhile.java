@@ -8,12 +8,17 @@ public class LoopComWhile {
 
         System.out.println("Digite um Valor: ");
         int contador = input.nextInt();
-        int valor = 1;
+        int valor = 2;
 
         while (valor <= contador) {
-            System.out.println(valor);
+            if  (valor % 2 == 1) {
+                System.out.println(valor);
+            }
+
             valor = valor + 1;
         }
+
+
 
         input.close();
     }
