@@ -23,13 +23,13 @@ public class InicializacaoArrays {
 
         String[] telefones = new String[2];
 
-        System.out.println("Telefone 1 quanndo array vazio: " + telefones[0]);
+        System.out.println("Telefone 1 quando array vazio: " + telefones[0]);
 
         telefones[0] = "123489875";
         telefones[1] = "423489875";
 
         System.out.println("Primeiro telefone: " + telefones[0]);
-        System.out.println("Segundo telefone: " + telefones[0]);
+        System.out.println("Segundo telefone: " + telefones[1]);
 
 
         int[] outrosNumeros = new int[5];
